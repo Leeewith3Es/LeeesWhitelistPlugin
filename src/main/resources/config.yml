@@ -1,0 +1,4 @@
+#Secret key for recaptcha
+Secret-Key: ""
+#Port the WebServer runs on
+Port: 8055

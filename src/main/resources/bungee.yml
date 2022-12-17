@@ -1,0 +1,4 @@
+name: VPNWhitelist
+main: me.txmc.vpnwhitelist.AntiBot
+softDepends:
+  - LuckPerms
