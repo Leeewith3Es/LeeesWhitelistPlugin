@@ -2,3 +2,6 @@
 Secret-Key: ""
 #Port the WebServer runs on
 Port: 8055
+#Command to run after verification
+TrueCommand: "lpb user %s permission set antivpn.bypass true"
+FalseCommand: "lpb user %s permission set antivpn.bypass false"

@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.txmc</groupId>
-    <artifactId>VpnWhitelistWebsite</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>LeeesWhitelistPlugin</artifactId>
+    <version>1.0.1-RELEASE</version>
     <packaging>jar</packaging>
 
     <name>L2X9AntiBot</name>

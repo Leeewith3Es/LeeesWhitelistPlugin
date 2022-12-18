@@ -1,4 +1,5 @@
-name: VPNWhitelist
+name: LeeesWhitelistPlugin
+version: 1.0.1
 main: me.txmc.vpnwhitelist.AntiBot
 softDepends:
   - LuckPerms

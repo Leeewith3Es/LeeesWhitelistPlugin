@@ -23,6 +23,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.InetSocketAddress;
 import java.nio.file.Files;
+import java.util.ResourceBundle;
 
 @Getter
 public final class AntiBot extends Plugin {

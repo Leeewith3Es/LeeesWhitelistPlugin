@@ -21,7 +21,8 @@ public class KauriVPNVerifier extends Verifier {
 
     @Override
     public void verify(String name) {
-        String cmd = String.format("lpb user %s permission set antivpn.bypass true", name);
+        String TrueCommand = plugin.getConfig().getString("TrueCommand");
+        String cmd = String.format(TrueCommand, name);
         plugin.getServer().getPluginManager().dispatchCommand(plugin.getServer().getConsole(), cmd);
     }
 
@@ -32,7 +33,8 @@ public class KauriVPNVerifier extends Verifier {
 
     @Override
     public void unVerify(String name) {
-        String cmd = String.format("lpb user %s permission set antivpn.bypass false", name);
+        String FalseCommand = plugin.getConfig().getString("FalseCommand");
+        String cmd = String.format(FalseCommand, name);
         plugin.getServer().getPluginManager().dispatchCommand(plugin.getServer().getConsole(), cmd);
     }
 
